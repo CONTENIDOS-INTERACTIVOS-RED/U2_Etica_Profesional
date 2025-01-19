@@ -17,19 +17,59 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #D8ECEA
   &-2
-    background-color: #FFFBE8
+    background-color: #F9DAD6
   &-3
-    background-color: #F0E9F6
+    background-color: #DAF6FA
   &-4
-    background-color: #EAF8FD
+    background-color: #FCEBE9
+  &-5
+    background-color: #FEF0D7
+  &-6
+    color: $color-secundario !important
+  &-7
+    background-color: $color-secundario
+  &-8
+    background-color: $color-terciario
+  &-9
+    background-color: $color-acento-contenido
+  &-10
+    background-color: $color-primario
+  &-11
+    background-color: #E8E7F2
+  &-12
+    background-color: #C4E3DF
+  &-13
+    background-color: #D3D2E6
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 10%
+    left: 0
+    width: 100%
+    height: 85%
+    transform: translateY(-9%)
+    background-color: #D8ECEA
+    z-index: 0
+  .col-lg-6, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
 
 .border-top
   &.color-primario
@@ -39,9 +79,22 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+.pst
+  border-radius: 10px 10px 0 0
+  &-1
+    border-radius: 0 0 10px 10px
+
 // Full Width Background
 .bg-full-width
   background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
@@ -54,10 +107,16 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/bg/bg4.svg") !important
+    background-position: top
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +156,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 55%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
-    color: #000 !important
+    color: #fff !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 57%) !important
 
 
 .anexo__texto

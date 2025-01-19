@@ -22,11 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
-              
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p.descripcion.mb-4 La ética profesional en seguridad y salud en el trabajo guía el comportamiento, fomenta la confianza y garantiza un entorno laboral seguro. Basada en principios como autonomía, beneficencia y justicia, promueve decisiones responsables, cumplimiento normativo y bienestar colectivo. El profesional ético se caracteriza por su calidad humana, compromiso con la confidencialidad y habilidades para resolver problemas. Además, los valores organizacionales como respeto, responsabilidad y honestidad fortalecen la cultura laboral. Combatir antivalores mediante educación y liderazgo ético asegura ambientes saludables, mejorando la productividad y el desarrollo organizacional sostenible.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
