@@ -5,10 +5,10 @@
     
     .bg-color-11.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.order-2
+        .col-lg-auto.order-lg-2
           figure
             img(src='@/assets/curso/tema3/1.png', alt='')
-        .col-lg.order-1.mb-3.mb-lg-0
+        .col-lg.order-lg-1.mb-3.mb-lg-0
           .p-4
             p.mb-0(data-aos="fade-up") Hablar de valores es fundamental en nuestra sociedad. Aunque es un concepto ampliamente reconocido, a menudo su definición carece de profundidad debido a su relación con construcciones culturales y subjetivas que varían entre personas y contextos. Los valores no son universales ni fijos; están influenciados por experiencias personales, tradiciones, creencias y entornos sociales.
     
@@ -44,7 +44,7 @@
 
     .bg-full-width.bg-fondo-4
       .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5.align-items-center
           .col-lg-8.mb-3.mb-lg-0
     
             SlyderF(columnas="col-12 col-lg-6")
@@ -177,15 +177,16 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/62391?page=67" target="_blank" rel="noopener noreferrer") Peiró i Gregòri, S. (2013). Valores educativos y convivencia: ( ed.). ECU.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.ethicsandcompliance.eu/" target="_blank" rel="noopener noreferrer") Men’s Barbershop - Your Way to a Stylish Look. (s. f.).    
+           
+            
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              img.me-3(src='@/assets/template/spotify.png' :style="{'max-width':'24px'}")
+              a(href="https://open.spotify.com/episode/65kJAFCQa4hymiOfwTOSCl?si=vIrXTw8-TbOeT4NakVRj7Q&nd=1&dlsi=58120b0721764679 " target="_blank" rel="noopener noreferrer") Ética profesional. (2022, 7 marzo). Spotify. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

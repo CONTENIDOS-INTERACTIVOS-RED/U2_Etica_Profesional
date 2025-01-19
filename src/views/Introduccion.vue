@@ -14,11 +14,11 @@
           img(src="@/assets/curso/intro/1.svg", alt="", data-aos="zoom-in")
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.order-2
+      .col-lg-7.order-lg-2.mb-3.mb-lg-0
         .py-4.px-5.bg-color-2(data-aos="fade-right")
           p.mb-0 Asimismo, el desarrollo de valores en las organizaciones resulta esencial para establecer ambientes laborales justos y sostenibles. Valores como el respeto, la responsabilidad y la honestidad fortalecen la cohesión social, fomentan la diversidad y promueven un liderazgo ético. De igual forma, combatir antivalores como la corrupción y la intolerancia a través de la educación y el diálogo contribuye a construir empresas resilientes, comprometidas con el bienestar de sus empleados y el desarrollo social.
     
-      .col-lg-5.order-1.mb-3.mb-lg-0
+      .col-lg-5.order-lg-1
         figure
           img(src="@/assets/curso/intro/2.png", alt="", data-aos="zoom-in")
 

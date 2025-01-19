@@ -32,20 +32,6 @@ export default {
         numero: '3',
         titulo: 'Desarrollo de valores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -54,22 +40,11 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -85,26 +60,85 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'República de Colombia. (Mayo 26 de 2015) Decreto 1072 de 2015. Ministerio de Trabajo. Colombia. ',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario-trabajo.html ',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Cortés, J. M. (2018). Sistemas de gestión de la seguridad y salud en el trabajo (ISO 45001:2018): (1 ed.). Málaga, España, Editorial ICB. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/225263?page=25',
+    },
+    {
+      referencia:
+        'Gea-Izquierdo, E. (2017). Seguridad y salud en el trabajo: ( ed.). Quito, Editorial de la Pontificia Universidad Católica del Ecuador. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/125562?page=495 ',
+    },
+    {
+      referencia:
+        'Fresno Chávez, C. (2018). La formación de valores: características: ( ed.). Córdoba, Argentina: Ciudad Educativa.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/36729?page=13 ',
+    },
+    {
+      referencia:
+        'O’Donnell, K. (2007). Valores humanos en la empresa: (1 ed.). LID Editorial España. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/270633?page=39 ',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Autonomía',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'derecho de los trabajadores a tomar decisiones informadas sobre su propia salud y seguridad.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Beneficencia',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'obligación de actuar en beneficio de los demás, especialmente en la prevención de riesgos laborales.',
+    },
+    {
+      termino: 'Confidencialidad',
+      significado:
+        'protección de la información sensible relacionada con la salud y el bienestar de los trabajadores.',
+    },
+    {
+      termino: 'Equidad',
+      significado:
+        'principio que busca igualdad de condiciones para todos los trabajadores, sin importar su posición o características personales.',
+    },
+    {
+      termino: 'Flexibilidad',
+      significado:
+        'capacidad de una organización para adaptarse a cambios y nuevas circunstancias de manera efectiva.',
+    },
+    {
+      termino: 'Honestidad',
+      significado:
+        'sinceridad y transparencia en las comunicaciones y acciones dentro de la organización.',
+    },
+    {
+      termino: 'Justicia',
+      significado:
+        'principio que garantiza un tratamiento justo y equitativo para todos los trabajadores en el entorno laboral.',
+    },
+    {
+      termino: 'Participación',
+      significado:
+        'implicación activa de los empleados en la toma de decisiones y en la gestión de riesgos laborales.',
+    },
+    {
+      termino: 'Responsabilidad',
+      significado:
+        'compromiso de los empleados y empleadores de asumir las consecuencias de sus decisiones y acciones.',
+    },
+    {
+      termino: 'Valores',
+      significado:
+        'principios y creencias que guían el comportamiento y las decisiones de las personas y sociedades.',
     },
   ],
 }

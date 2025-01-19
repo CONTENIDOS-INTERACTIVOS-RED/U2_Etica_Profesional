@@ -178,15 +178,18 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/38824 " target="_blank" rel="noopener noreferrer") López Zavala, R. (2009). Huellas de la profesionalidad: ética profesional en la formación universitaria: ( ed.). Plaza y Valdés (México). 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.coursera.org/ " target="_blank" rel="noopener noreferrer") Coursera. (s. f.). Coursera | Online Courses & Credentials From Top Educators. Join for Free.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://slack.com/intl/es-co" target="_blank" rel="noopener noreferrer") Slack. (s. f.). Herramientas de administración del trabajo y de productividad con IA. Slack. 
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=jirP8EIVdqU" target="_blank" rel="noopener noreferrer") Mtro. Luis Eduardo Perez Ortiz Cancino. (2022, 27 julio). La Ética en la Gestión Integral de Riesgos de Desastre.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

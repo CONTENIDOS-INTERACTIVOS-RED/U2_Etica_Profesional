@@ -205,15 +205,16 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/44818?page=1" target="_blank" rel="noopener noreferrer") Vallejo Dacosta, R. (2016). Marco jurídico de la seguridad y salud en el trabajo: (3 ed.). Prensas de la Universidad de Zaragoza. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://hbr.org/topic/subject/business-ethics " target="_blank" rel="noopener noreferrer") Business ethics. (2008, 21 marzo). HBR.   
+           
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=Z9xyYiv1OO4" target="_blank" rel="noopener noreferrer") Universidad Continental - Modalidad a Distancia. (2021, 29 abril). Ética en la Vida Profesional.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
