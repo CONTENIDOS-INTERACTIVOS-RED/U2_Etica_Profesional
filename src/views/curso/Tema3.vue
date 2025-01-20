@@ -29,7 +29,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/06oM3mE3TUU?si=yhgAqrrpr0WzSUtc" title="Los valores: principios que guían el comportamiento humano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .bg-full-width.bg-color-12.mb-5
       .px-4.px-md-5.py-4
@@ -204,7 +204,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Desarrollo de valores',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -213,28 +213,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de las siguientes características es fundamental en un profesional de seguridad y salud en el trabajo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Capacidad para trabajar solo',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Disposición para trabajar en equipo',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Habilidades en la venta',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Conocimiento en marketing',
                 esCorrecta: false,
               },
             ],
@@ -244,28 +244,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'La promoción de la salud mental en el trabajo es importante porque:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Solo afecta los empleados en puestos de liderazgo',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Mejora la comunicación y el apoyo emocional',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'No tiene impacto en la productividad',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Es un requisito legal únicamente',
                 esCorrecta: false,
               },
             ],
@@ -274,29 +274,29 @@ export default {
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: 'La ética profesional en el manejo de quejas implica:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto:
+                  'Escuchar sin interrumpir y considerar las preocupaciones de los empleados',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Desestimar las quejas como irrelevantes',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Actuar sin consultar a los afectados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Tomar decisiones apresuradas',
                 esCorrecta: false,
               },
             ],
@@ -305,28 +305,32 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'La confidencialidad en el rol de seguridad y salud en el trabajo es crucial porque:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto:
+                  'Permite el acceso a información sensible sin restricciones',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto:
+                  'Mantiene la confianza de los empleados y cumple con regulaciones de privacidad',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Es irrelevante para el bienestar de los trabajadores',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto:
+                  'Facilita el despido de empleados con problemas de salud',
                 esCorrecta: false,
               },
             ],
@@ -336,28 +340,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              'El liderazgo en el ámbito de la seguridad y salud laboral debe estar alineado con:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Las preferencias personales del líder',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'La dirección estratégica de la organización',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Las metas de otros departamentos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'La reducción de costos únicamente',
                 esCorrecta: false,
               },
             ],
