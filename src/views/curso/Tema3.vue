@@ -55,7 +55,7 @@
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/6.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Normalización cultural
-                p.text-center Conductas negativas, como la violencia, pueden. 
+                p.text-center Conductas negativas, como la violencia, pueden perpetuarse.
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/7.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Desplazamiento de valores positivos

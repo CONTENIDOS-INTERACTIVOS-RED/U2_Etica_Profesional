@@ -180,7 +180,7 @@
         h5.mb-0.py-4.bg-color-9.text-white.pst Fortalecer la confianza y la reputación organizacional
         div.p-4.bg-color-1.pst-1 
           p.mb-0 Desarrollar una cultura de respeto y transparencia.
-          p.mb-0 Cumplir con los estándares legales y éticos, proyectando una imagen de 
+          p.mb-0 Cumplir con los estándares legales y éticos, proyectando una imagen de responsabilidad social.
       .col-lg-4.text-center.mb-3.mg-lg-0(data-aos="fade-up")
         h5.mb-0.p-4.bg-color-8.pst Fomentar un clima organizacional positivo
         div.p-4.bg-color-5.pst-1 

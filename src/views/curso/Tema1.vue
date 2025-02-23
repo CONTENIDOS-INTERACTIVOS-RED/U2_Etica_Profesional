@@ -21,7 +21,7 @@
           img(src="@/assets/curso/tema1/2.png", alt="").mb-4.mb-lg-0
       .col-lg-8 
         AcordionA(tipo="b")
-          .div(titulo="Construcción de confianzarates")
+          .div(titulo="Construcción de confianza")
             p La ética refuerza la credibilidad del profesional y la organización, fomentando relaciones basadas en el respeto mutuo y el compromiso con la seguridad.
     
           .div(titulo="Toma de decisiones responsables")
@@ -81,7 +81,7 @@
               ul.lista-ul
                 li.mb-2.d-flex.bg-color-6
                   i.far.fa-arrow-alt-circle-right 
-                  p.mb-0 Garantizar igualdad de condiciones para todos los trabajadores, independientemente de su puesto o características personales
+                  p.mb-0 Garantizar igualdad de condiciones para todos los trabajadores, independientemente de su puesto o características personales.
                 li.mb-2.d-flex.bg-color-6
                   i.far.fa-arrow-alt-circle-right 
                   p.mb-0 Asegurar la transparencia en la gestión de riesgos, considerando las necesidades y preocupaciones de todos. 
